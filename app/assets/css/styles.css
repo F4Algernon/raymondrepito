@@ -1,0 +1,93 @@
+/* 
+	Originally named as clearix 
+	https://css-tricks.com/snippets/css/clear-fix/
+*/
+
+
+.site-container:before {
+	content:" ";
+	display:table
+}
+
+.site-container:after {
+	content:" ";
+	display:table
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.color-bar span {
+	width:10%;
+	float:left;
+	height:200px;
+	display:block
+}
+
+.reimscolor-01 {
+	background: #89aec5;
+}
+
+.reimscolor-02 {
+	background: #4f678a;
+}
+
+.reimscolor-03 {
+	background: #aeabb0;
+}
+
+.reimscolor-04 {
+	background: #abdadb;
+}
+
+.reimscolor-05 {
+	background: #cecec7;
+}
+
+.reimscolor-06 {
+	background: #c3ac9f;
+}
+
+.reimscolor-07 {
+	background: #f1cad2;
+}
+
+.reimscolor-08 {
+	background: #828a8d;
+}
+
+.reimscolor-09 {
+	background: #495556;
+}
+
+.reimscolor-10 {
+	background: #7186ac;
+}
+
+
+.yellow {
+	background:#ffd117
+}
+
+.orange {
+	background:#ffaa17
+}
+
+.pink { 
+	background:#f77f63
+}
+
+.blue {
+	background:#7bb3d0
+}
+
+.violet {
+	background:#7b85d0
+}
+
+.green {
+	background:#bbd07b
+}
